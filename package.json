@@ -1,0 +1,22 @@
+{
+  "name": "iot-gateway",
+  "version": "1.0.0",
+  "description": "Aplikasi IoT gateway sederhana dengan express dan mysql",
+  "license": "ISC",
+  "author": "Rudy Eko Prasetya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.14.1",
+    "express-validator": "^6.12.1",
+    "mysql": "^2.18.1"
+  }
+}
