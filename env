@@ -1,0 +1,2 @@
+PORT=4000
+FORWARD_URL=https://backend.server/api/iot
